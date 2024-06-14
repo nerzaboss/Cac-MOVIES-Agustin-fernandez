@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-MOVIES</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="header-left">
+                <h1>CAC-Movies</h1>
+            </div>
+            <div class="header-right">
+                <nav>
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-white">Tendencias</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Registrarse</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Iniciar Sesión</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero text-white text-center py-5">
+            <div class="container">
+                <h2>Películas y series ilimitadas en un solo lugar</h2>
+                <p>Disfruta donde quieras. Cancela en cualquier momento.</p>
+                <a href="#" class="btn btn-danger">Regístrate</a>
+            </div>
+        </section>
+        <section class="search py-5">
+            <div class="container text-center">
+                <h2></h2>
+                <!-- Búsqueda de películas -->
+            </div>
+        </section>
+        <section class="trending bg-dark text-white py-5">
+            <div class="container">
+                <h3 class="mb-4">Las tendencias de hoy</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="imagenes/ten1.png" alt="Tendencia 1" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten2.png" alt="Tendencia 2" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten3.png" alt="Tendencia 3" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten4.png" alt="Tendencia 4" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten5.png" alt="Tendencia 5" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten6.png" alt="Tendencia 6" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten7.png" alt="Tendencia 7" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten8.png" alt="Tendencia 8" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten9.png" alt="Tendencia 9" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten10.png" alt="Tendencia 10" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten11.png" alt="Tendencia 11" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-rated py-5">
+            <div class="container">
+                <h3 class="mb-4">Las más aclamadas</h3>
+                <div class="row flex-nowrap overflow-auto">
+                    <div class="col-md-3">
+                        <img src="imagenes/ten1.png" alt="Aclamada 1" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten2.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagenes/ten3.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten4.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten5.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten6.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten7.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten8.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten9.png" alt="Aclamada 2" class="img-fluid rounded">
+                    </div><div class="col-md-3">
+                        <img src="imagenes/ten10.png" alt="Aclamada 2" class="img-fluid rounded">
+                        <div class="col-md-3">
+                            <img src="imagenes/ten11.png" alt="Aclamada 2" class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <!-- Repite para más imágenes según sea necesario -->
+                </div>
+            </div>
+        </section>
+        <section class="search-form py-5 bg-light">
+            <div class="container text-center">
+                <form action="/buscar" method="get">
+                    <div class="form-group">
+                        <input type="text" name="q" class="form-control" placeholder="Buscar películas, series..." aria-label="Buscar">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Buscar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-danger text-white py-4">
+        <div class="container">
+            <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a href="#" class="text-white">Términos y condiciones</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Preguntas frecuentes</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Ayuda</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Administrador Peliculas</a></li>
+            </ul>
+            <p class="mt-3">Aporte realizado por coordinación JAVA-PHP Colaborador <a href="https://www.linkedin.com/in/giselemilagros88/" class="text-white">Gisele M. Gonzalez</a></p>
+            <p>Proyecto paso a paso <a href="https://youtu.be" class="text-white">Video Youtube</a></p>
+        </div>
+    </footer>
+</body>
+</html>
